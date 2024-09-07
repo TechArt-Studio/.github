@@ -1,6 +1,6 @@
 # Tech-Art
 
-Welcome to the official Tech-Art GitHub account!🎉 We are a studio committed to privacy protection.
+Welcome to the official Tech-Art GitHub account!🎉
 
 ## Our Products
 
