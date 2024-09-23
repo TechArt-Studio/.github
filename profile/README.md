@@ -2,6 +2,10 @@
 
 Welcome to the official Tech-Art GitHub account!🎉
 
+## About us
+
+[About us](https://xyehr.cn/about)
+
 ## Our Products
 
 - **One Captcha**
