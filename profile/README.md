@@ -9,8 +9,7 @@ Welcome to the official Tech-Art GitHub account!🎉
 ## Our Products
 
 - **One Captcha**
-- **One Calendar**
-- **One Pass**
+- **Mail**
 - **Easy Notes**
 - **M4A to MP3 converter**
 
