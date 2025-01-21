@@ -10,7 +10,7 @@ Welcome to the official Tech-Art GitHub account!🎉
 
 - **One Captcha**
 - **Mail**
-- **Easy Notes**
+- **Easy Note**
 - **M4A to MP3 converter**
 
 ### Our Game
