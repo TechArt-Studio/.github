@@ -1,28 +1,31 @@
-name: Generate Org Metrics
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-permissions:
-  contents: write
+name: Generate Org Metrics # 工作流名称
+
+on: # 触发条件
+  schedule: # 定时运行
+    - cron: "0 0 * * *" # 每天 UTC 00:00 运行（JST 09:00）
+  workflow_dispatch: # 支持手动触发
+
+permissions: # 设置权限
+  contents: write # 允许写入仓库内容
+
 jobs:
-  org-metrics:
-    runs-on: ubuntu-latest
+  org-metrics: # 任务名称
+    runs-on: ubuntu-latest # 运行环境
     steps:
-      - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v3 # 检出仓库代码
+      - uses: lowlighter/metrics@latest # 使用 metrics Action
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: org-metrics.svg
-          user: ""
-          repo: ${{ github.repository }}
-          base: header # 只保留头部
-          plugin_introduction: yes
-          plugin_introduction_title: "Our Organization Stats"
-          config_debug: yes # 启用调试日志
+          token: ${{ secrets.METRICS_TOKEN }} # 自定义 PAT
+          filename: org-metrics.svg # 输出文件名
+          user: "" # 清空 user，切换到组织模式
+          repo: ${{ github.repository }} # 当前仓库
+          base: header # 显示头部信息
+          template: classic # 默认 classic 模板
+          plugin_introduction: yes # 启用简介插件
+          plugin_introduction_title: "TechArt Studio Stats" # 自定义标题
         env:
-          ORGANIZATION: ${{ github.repository_owner }}
-      - name: Commit & Push
+          ORGANIZATION: TechArt-Studio # 明确指定组织名
+      - name: Commit & Push # 提交生成的文件
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
