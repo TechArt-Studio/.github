@@ -2,7 +2,7 @@
 
 Welcome to the official Tech-Art GitHub account!🎉
 
-![Icon](https://skills-icons.vercel.app/api/icons?i=nextjs,python,typescript,javascript,react,vscode,pycharm,github,vercel,x,markdown&perline=7)
+![Icon](https://skills-icons.vercel.app/api/icons?i=nextjs,python,typescript,javascript,react,vscode,pycharm,github,vercel,markdown&perline=7)
 
 ## About us
 
