@@ -8,10 +8,8 @@ Welcome to **Tech-Art**'s official GitHub homepage! We are a dynamic studio that
 
 Here are two flagship projects that our community is proud of:
 
-- **[One Calendar]**: A simple and efficient calendar tool designed to help users seamlessly manage their schedules.
-🔗 [View the codebase](https://github.com/EvanTechDev/One-Calendar)
-- **[Mail]**: A webapp that sends emails using a custom domain name
-🔗 [View the codebase](https://github.com/TechArt-Studio/Mail)
+- **[One Calendar](https://github.com/EvanTechDev/One-Calendar)**: A simple and efficient calendar tool designed to help users seamlessly manage their schedules.
+- **[Mail](https://github.com/TechArt-Studio/Mail)**: A webapp that sends emails using a custom domain name
 
 ## Technology stack
 
