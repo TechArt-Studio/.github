@@ -1,8 +1,6 @@
-# Tech-Art
+# Zentra
 
-Welcome to **Tech-Art**'s official GitHub homepage! We are a dynamic studio that works together to create innovative, high-quality open source projects.
-
-![Technology Stack](https://skills-icons.vercel.app/api/icons?i=nextjs,python,typescript,javascript,react,vscode,pycharm,github,vercel,markdown&perline=7)
+Welcome to **Zentra**'s official GitHub homepage! We are a dynamic studio that works together to create innovative, open source projects.
 
 ## How to contribute
 
